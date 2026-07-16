@@ -81,7 +81,7 @@
         }
 
         .logo-img {
-            height: 2.5rem; /* Adjust height based on your asset */
+            height: 2.5rem;
             width: auto;
             margin-right: 0.75rem;
         }
@@ -119,6 +119,16 @@
             letter-spacing: 0.5px;
         }
 
+        .image-tagline-box {
+            flex: 2;
+            padding: 20px;
+        }
+
+        .image-tagline-center-box {
+            flex: 1;
+            padding: 20px 0;
+        }
+
         .nav-links {
             display: flex;
             list-style: none;
@@ -139,7 +149,6 @@
 
         /* Hero Section */
         .hero {
-            /*padding: 40px;*/
             background: linear-gradient(180deg, var(--bg-light) 0%, #ffffff 100%);
             text-align: center;
         }
@@ -217,7 +226,6 @@
         <div class="container navbar">
             <!-- Clickable Logo Element -->
             <a href="#" class="logo-container">
-                <!-- Replace src with your actual logo file path (e.g., logo.png or logo.svg) -->
                 <img class="logo-img" src="icons/favicon-96x96.png" alt="WorkFlow Prime Icon">
                 <span class="logo-text">WorkFlow Prime</span>
             </a>            
@@ -238,9 +246,15 @@
             <div class="container">
                 <div class="image-container">
                     <img src="workflow-prime-logo.png" alt="WorkFlow Prime Logo">
+                    <div style="display: flex;">
+                        <div class="image-tagline-box"><h3 class="image-tagline">Streamline your WorkFlow</h3></div>
+                        <div class="image-tagline-center-box"><h3 class="image-tagline">&mdash;</h3></div>
+                        <div class="image-tagline-box"><h3 class="image-tagline">Elevate your Productivity</h3></div>
+                    </div>
                 </div>
-                <h3 class="image-tagline">Streamline your WorkFlow&nbsp;&nbsp;&nbsp;&nbsp;&mdash;&nbsp;&nbsp;&nbsp;&nbsp;Elevate your Productivity</h3>
+                
             </div>
+            <div class="image-tagline-div"></div><div class="image-tagline-div"></div><div class="image-tagline-div"></div>
         </section>
         <section id="features" class="features">
             <div class="container">
@@ -248,31 +262,31 @@
                     <!-- Feature Card 1 -->
                     <div class="card">
                         <h3>Live Dashboard</h3>
-                        <p>Optimized asset paths and lightweight styles ensure near-instant page load performance thresholds.</p>
+                        <p>Monitor your entire operation from a single, real-time dashboard. Track project progress, team workloads, production status, inventory levels, and key performance metrics with instant visibility, enabling faster decisions and proactive management.</p>
                     </div>
                     <!-- Feature Card 2 -->
                     <div class="card">
                         <h3>Project Management</h3>
-                        <p>Designed with a mobile-first philosophy to render elements uniformly across desktop, tablet, and mobile displays.</p>
+                        <p>Plan, organize, and deliver projects with confidence. Manage tasks, milestones, budgets, and deadlines while keeping teams aligned and stakeholders informed throughout every stage of the project lifecycle.</p>
                     </div>
                     <!-- Feature Card 3 -->
                     <div class="card">
                         <h3>Scheduling</h3>
-                        <p>Easily modifiable structures make adding dynamic logic, custom graphics, or embedded form blocks seamless.</p>
+                        <p>Create efficient schedules that keep people, equipment, and projects moving. Eliminate conflicts, adapt quickly to changing priorities, and ensure the right resources are available exactly when they're needed.</p>
                     </div>
                 </div>
                 <div class="grid">
                     <div class="card">
                         <h3>Production Planning</h3>
-                        <p>Optimized asset paths and lightweight styles ensure near-instant page load performance thresholds.</p>
+                        <p>Optimize your production workflow with intelligent planning and forecasting. Balance capacity, coordinate manufacturing activities, and meet delivery deadlines while minimizing downtime and maximizing operational efficiency.</p>
                     </div>
                     <div class="card">
                         <h3>Inventory Management</h3>
-                        <p>Designed with a mobile-first philosophy to render elements uniformly across desktop, tablet, and mobile displays.</p>
+                        <p>Maintain complete control over your inventory with real-time stock tracking, automated replenishment, and accurate reporting. Reduce waste, prevent stock shortages, and ensure materials are always available when required.</p>
                     </div>
                     <div class="card">
                         <h3>Resource Planning</h3>
-                        <p>Easily modifiable structures make adding dynamic logic, custom graphics, or embedded form blocks seamless.</p>
+                        <p>Maximize the utilization of your workforce, equipment, and assets through intelligent resource planning. Forecast future demand, balance workloads, and allocate the right resources to the right projects for improved productivity and profitability.</p>
                     </div>
                 </div>
             </div>
